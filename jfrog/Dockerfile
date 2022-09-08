@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=gcr.io/${PROJECT_ID}/mvn:3.3.9-jdk-8
+ARG BASE_IMAGE=gcr.io/$gentle-respect-360011/pip3:0.2.0-jdk-11
 FROM ${BASE_IMAGE}
 
 ARG JFROG_CLI_VERSION=1.17.1
